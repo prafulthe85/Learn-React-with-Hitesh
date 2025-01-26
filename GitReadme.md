@@ -17,3 +17,17 @@ Create project
 ## In vite you have to name the files .jsx not .js, it throws error
 
 ## Always export and create componets with Capital Letter
+
+# Install Tailwind in folder
+
+Run the following commands in your project
+
+- npm install tailwindcss @tailwindcss/vite
+- change the vite.config.js file by importing tailwindcss and calling in plugin
+  - import tailwindcss from "@tailwindcss/vite";
+  - plugins: [react(), tailwindcss()],
+- In index.css add @import "tailwindcss";
+
+# Also add below in eslint.config.js file to remove red warning
+
+      "no-unused-vars": "warn",
