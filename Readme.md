@@ -26,3 +26,8 @@ useEffect just re-render if there is any changes in the parameters passed there
 useRef
 kisi bhi cheez ka jb hme reference lena hota h tb useRef kaam ata h
 Declare it first then use where you want to refer
+
+useId
+Hook that generate a unique id to bind a element
+
+Remember to use key in loops in React
