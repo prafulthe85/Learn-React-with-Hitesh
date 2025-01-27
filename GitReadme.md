@@ -1,33 +1,53 @@
-To start the project and publish on GitHub, Follow the steps:
+# 🚀 Learn React with Hitesh
+
+## Publish the Project on GitHub
 
 - Create a new repository
-- Now come to your terminal at project location and run some commands
-- git init
-- git add Readme.md(Create a readme file and add)
-- git commit -m "Initial Message"
-- git branch -M main
-- git remote add origin https://github.com/prafulthe85/Learn-React-with-Hitesh.git
-- git push -u origin main
+- Now come to your terminal at the project location and run some commands:
+  - `git init`
+  - `git add Readme.md` (Create a readme file and add)
+  - `git commit -m "Initial Message"`
+  - `git branch -M main`
+  - `git remote add origin https://github.com/prafulthe85/Learn-React-with-Hitesh.git`
+  - `git push -u origin main`
 
-Create project
+---
 
-- npx create-react-app app_name (This will take time)
-- npm create vite@latest (takes less time) -> use npm i first to install packages first in this case (npm run dev) to start the app
+## Create Project
 
-## In vite you have to name the files .jsx not .js, it throws error
+- `npx create-react-app app_name` (This will take time)
+- `npm create vite@latest` (takes less time)
+  - Use `npm i` first to install packages
+  - Run `npm run dev` to start the app
 
-## Always export and create componets with Capital Letter
+### Notes for Vite:
 
-# Install Tailwind in folder
+- You have to name the files `.jsx` instead of `.js`, as it throws errors otherwise.
+- Always export and create components with **Capital Letters**.
 
-Run the following commands in your project
+---
 
-- npm install tailwindcss @tailwindcss/vite
-- change the vite.config.js file by importing tailwindcss and calling in plugin
-  - import tailwindcss from "@tailwindcss/vite";
-  - plugins: [react(), tailwindcss()],
-- In index.css add @import "tailwindcss";
+## Install Tailwind in Folder
 
-# Also add below in eslint.config.js file to remove red warning
+Run the following commands in your project:
 
-      "no-unused-vars": "warn",
+- `npm install tailwindcss @tailwindcss/vite`
+- Change the `vite.config.js` file by importing Tailwind CSS and calling it in the plugin:
+
+  ```javascript
+  import tailwindcss from "@tailwindcss/vite";
+
+  plugins: [react(), tailwindcss()],
+  ```
+
+- In `index.css` add
+
+  ```css
+  @import "tailwindcss";
+  ```
+
+- Also add below in `eslint.config.js` file to remove red warning
+
+  ```css
+  "no-unused-vars":"warn", ;
+  ```

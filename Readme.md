@@ -1,33 +1,73 @@
-React is a Library.
-Framework: Follow rules, django, angular
-Library: Small and freehand
-
-Core react: state and ui manipulation, jsx(write html in js), component reusability, props, hooks(usestate, useeffect),
-React makes single page application,
-Using react router, state management, redux, context api, class based componen(legacy code),
-React has no seo, browser rendering issue,
-
-Next steps: use next with react
+# 🌟 React Overview
 
 ---
 
-Hooks:
+## 📚 React is a Library
 
-# Used in password Generator
+- **Framework**: Follow rules (e.g., Django, Angular).
+- **Library**: Small and freehand.
 
-useCallback(fun, dependencies)
-useCallback: a hook that let you cache a function btwn different re-renders
-useCallback basically optimize the function for the dependencies passed
-useCallback is used to cache a function, to optimize that function on re-render of elements passed in as dependencies(in form of arr)
+---
 
-useEffect(fun, dependencies)
-useEffect just re-render if there is any changes in the parameters passed there
+## ⚙️ Core React Features
 
-useRef
-kisi bhi cheez ka jb hme reference lena hota h tb useRef kaam ata h
-Declare it first then use where you want to refer
+- **State and UI manipulation**
+- **JSX**: Write HTML in JavaScript.
+- **Component Reusability**
+- **Props**
+- **Hooks**: `useState`, `useEffect`
+- React makes **Single Page Applications**.
+- Additional features:
+  - React Router
+  - State Management (Redux, Context API)
+  - Class-based components (legacy code)
 
-useId
-Hook that generate a unique id to bind a element
+⚠️ **Limitations**:
 
-Remember to use key in loops in React
+- React has no SEO.
+- Browser rendering issues.
+
+---
+
+## 🔗 Next Steps
+
+- Use **Next.js** with React.
+
+---
+
+## 🔑 Hooks Overview
+
+### 🛠️ **Used in Password Generator, Currency Converter**
+
+#### 1. `useCallback(fun, dependencies)`
+
+- A hook that lets you cache a function between different re-renders.
+- **Purpose**: Optimize the function for dependencies passed.
+- Used to cache a function and optimize it on re-render when elements passed in as dependencies (in the form of an array).
+
+---
+
+#### 2. `useEffect(fun, dependencies)`
+
+- Re-renders only if there are changes in the parameters passed.
+
+---
+
+#### 3. `useRef`
+
+- Used to reference any element.
+- Steps:
+  - Declare it first.
+  - Use it where the reference is required.
+
+---
+
+#### 4. `useId`
+
+- A hook that generates a unique ID to bind an element.
+
+---
+
+## ⚡ Important Notes
+
+- **Remember**: Use `key` in loops in React.
