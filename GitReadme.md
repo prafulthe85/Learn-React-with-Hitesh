@@ -46,7 +46,7 @@ Run the following commands in your project:
   @import "tailwindcss";
   ```
 
-- Also add below in `eslint.config.js` file to remove red warning
+- Also add below in `eslint.config.js` file to remove red warning for unused variables
 
   ```css
   "no-unused-vars":"warn", ;
